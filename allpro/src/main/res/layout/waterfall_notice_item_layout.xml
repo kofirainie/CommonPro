@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/trace_date_time_whole_rl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:paddingLeft="4dp">
+
+    <LinearLayout
+        android:id="@+id/trace_date_time_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_item_background_selector"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <View
+            android:id="@+id/nearby_life_guess_tip_top_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/common_border_color"/>
+
+        <RelativeLayout
+            android:id="@+id/trace_date_time_innner_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="2dp"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/trace_tag_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="轨迹"
+                android:textColor="@drawable/common_item_text_color_background_selector"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/trace_date_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1111-11-11"
+                android:textColor="@drawable/common_item_text_color_background_selector"
+                android:textSize="16sp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@id/trace_tag_tv"
+                android:layout_toRightOf="@id/trace_tag_tv"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"/>
+
+            <ImageView
+                android:id="@+id/trace_arrow_iv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="right"
+                android:adjustViewBounds="true"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/common_item_iv_background_selector"/>
+
+            <TextView
+                android:id="@+id/trace_time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/trace_date_tv"
+                android:text="22:22:22"
+                android:textColor="@drawable/common_item_text_color_background_selector"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/trace_status_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:text="完成"
+                android:textSize="16sp"
+                android:textColor="@color/common_font_color"
+                android:layout_marginStart="23dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/trace_time_tv"
+                android:layout_toEndOf="@+id/trace_time_tv"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

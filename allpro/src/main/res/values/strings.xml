@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">地图测试</string>
+    <string name="app_agent_str">Talent/%1$s-%2$s (Android %3$s;%4$s;SerialId:%5$s)</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Common Header相关 -->
+    <string name="common_header_btn_back_str">返回</string>
+    <string name="common_header_btn_ensure_str">确定</string>
+    <string name="common_header_network_remind_str">当前网络不可用，请检查你的网络设置。</string>
+
+    <!-- Common Footer相关 -->
+    <string name="common_footer_tv_homepage_str">首页</string>
+    <string name="common_footer_tv_news_str">资讯</string>
+    <string name="common_footer_tv_course_str">课程</string>
+    <string name="common_footer_tv_community_str">社区</string>
+    <string name="common_footer_tv_advanced_str">同学派</string>
+    <string name="common_footer_tv_user_str">我的</string>
+
+    <!-- waterfall 相关 -->
+    <string name="waterfall_header_hint_normal">下拉刷新</string>
+    <string name="waterfall_header_hint_ready">松开刷新数据</string>
+    <string name="waterfall_header_hint_loading">正在加载...</string>
+    <string name="waterfall_header_last_time">上次更新时间：</string>
+    <string name="waterfall_header_noupdated_str">暂未更新过</string>
+    <string name="waterfall_header_updated_str">上次更新于%1$s前</string>
+    <string name="waterfall_header_updated_justnow_str">刚刚更新</string>
+    <string name="waterfall_header_time_error_str">时间有问题</string>
+    <string name="waterfall_footer_hint_normal">查看更多</string>
+    <string name="waterfall_footer_hint_ready">松开载入更多</string>
+
+    <!-- MainActivity相关 -->
+    <string-array name="map_stypes_title">
+        <item>创建地图</item>
+        <item>地图交互</item>
+        <item>地图上绘制</item>
+        <item>查询地图数据</item>
+        <item>出行路线规划</item>
+        <item>短串分享</item>
+        <item>地图计算工具</item>
+    </string-array>
+    <string-array name="map_stypes_1">
+        <item>基本地图</item>
+        <item>OSM地图</item>
+        <item>supportMapFragment创建地图</item>
+        <item>地图多实例</item>
+        <item>AMapOptions实现地图</item>
+    </string-array>
+    <string-array name="map_stypes_2">
+        <item>UI setting功能</item>
+        <item>地图logo位置</item>
+        <item>layers图层功能</item>
+        <item>手势交互</item>
+        <item>Events功能</item>
+        <item>Camera功能</item>
+        <item>地图动画效果</item>
+        <item>自定义缩放</item>
+        <item>地图截屏功能</item>
+        <item>国内外地图切换</item>
+    </string-array>
+    <string-array name="map_stypes_3">
+        <item>makers功能</item>
+        <item>makers点击回调</item>
+        <item>InfoWindows功能</item>
+        <item>自定义Maker</item>
+        <item>Location小蓝点功能</item>
+        <item>Location小蓝点自定义功能</item>
+        <item>定位箭头旋转</item>
+        <item>PolyLines功能</item>
+        <item>Circles功能</item>
+        <item>Polygons功能</item>
+        <item>GroundOverlay功能</item>
+    </string-array>
+    <string-array name="map_stypes_4">
+        <item>poi关键字搜索</item>
+        <item>poi周边搜索</item>
+        <item>poiID搜索功能</item>
+        <item>沿途搜索</item>
+        <item>输入提示</item>
+        <item>POI父子关系</item>
+        <item>天气查询</item>
+        <item>地理编码功能</item>
+        <item>逆地理编码功能</item>
+        <item>行政区划查询</item>
+        <item>行政区划边界查询</item>
+        <item>Busline公交查询</item>
+        <item>公交站点查询</item>
+        <item>云图搜索</item>
+    </string-array>
+    <string-array name="map_stypes_5">
+        <item>驾车路径规划</item>
+        <item>步行路径规划</item>
+        <item>公交路径规划</item>
+        <item>骑行路径规划</item>
+        <item>Route路径规划</item>
+    </string-array>
+    <string-array name="map_stypes_6">
+        <item>短串分享</item>
+    </string-array>
+    <string-array name="map_stypes_7">
+        <item>坐标系转换</item>
+        <item>经纬度转屏幕像素</item>
+        <item>两点间距离</item>
+        <item>点是否在多边形内</item>
+    </string-array>
+
+    <string name="main_type_tile_srr">地图模块%1$s:%2$s</string>
+    <string name="notice_content_transmited_tip">[已转发]</string>
+    <string name="notice_content_untransmit_tip">[未转发]</string>
+
+</resources>

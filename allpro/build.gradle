@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        applicationId "com.gpstrace.dlrc"
+        minSdkVersion 11
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile files('libs/android-support-v4.jar')
+    compile files('libs/gson-2.2.4.jar')
+    compile files('libs/org.apache.http.legacy.jar')
+    compile files('libs/umeng-analytics-v5.6.1.jar')
+    compile files('libs/universal-image-loader-1.9.3.jar')
+}
