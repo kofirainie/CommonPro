@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/map_type_title_rl"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:layout_marginTop="10dp"
+    android:background="@color/white_color"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/map_type_title_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_for_test_can_delect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上传"/>
+    </LinearLayout>
+
+</RelativeLayout>

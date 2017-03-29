@@ -77,11 +77,11 @@ public class MapType1Create extends ActivityBase{
 		String[] mapItem1 = getApplicationContext().getResources()
 				.getStringArray(R.array.map_stypes_1);
 		List<TResponseBase> TResponseBase1 = new ArrayList<TResponseBase>();
-		TResponseBase1.add(new TResponseBase(R.drawable.a11, mapItem1[0], true));
-		TResponseBase1.add(new TResponseBase(R.drawable.a12, mapItem1[1], true));
-		TResponseBase1.add(new TResponseBase(R.drawable.a13, mapItem1[2], true));
-		TResponseBase1.add(new TResponseBase(R.drawable.a14, mapItem1[3], true));
-		TResponseBase1.add(new TResponseBase(R.drawable.a15, mapItem1[4], true));
+		TResponseBase1.add(new TResponseBase(R.drawable.a101, mapItem1[0], true));
+		TResponseBase1.add(new TResponseBase(R.drawable.a102, mapItem1[1], true));
+		TResponseBase1.add(new TResponseBase(R.drawable.a103, mapItem1[2], true));
+		TResponseBase1.add(new TResponseBase(R.drawable.a104, mapItem1[3], true));
+		TResponseBase1.add(new TResponseBase(R.drawable.a105, mapItem1[4], true));
 	}
 	
 	/**

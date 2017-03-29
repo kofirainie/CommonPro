@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">地图测试</string>
+    <string name="app_name">IT蓝豹</string>
     <string name="app_agent_str">Talent/%1$s-%2$s (Android %3$s;%4$s;SerialId:%5$s)</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -109,5 +109,11 @@
     <string name="main_type_tile_srr">地图模块%1$s:%2$s</string>
     <string name="notice_content_transmited_tip">[已转发]</string>
     <string name="notice_content_untransmit_tip">[未转发]</string>
+
+    <string name="peek_standard">Standard</string>
+    <string name="peek_longhold">Long hold</string>
+    <string name="peek_fling">Fling</string>
+    <string name="peek_hold_and_release">Hold and release</string>
+    <string name="peek_example">Example use</string>
 
 </resources>

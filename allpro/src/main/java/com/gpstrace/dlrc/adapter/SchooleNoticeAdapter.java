@@ -2,6 +2,7 @@ package com.gpstrace.dlrc.adapter;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
+import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -38,6 +39,10 @@ public class SchooleNoticeAdapter extends BaseAdapter
 	private String untransmit;
 	private ColorStateList blueColor;
 	private ColorStateList blackColor;
+
+	private Drawable yellowStyle;
+	private Drawable blueStyle;
+	private Drawable redStyle;
 	//下载,下载中，完成
 	private String[] statusStrArr = {"下载", "下载中", "完成" };
 
@@ -76,6 +81,28 @@ public class SchooleNoticeAdapter extends BaseAdapter
         		.getString(R.string.notice_content_untransmit_tip);	     
 		this.blueColor = ColorStateList.valueOf(0xFF45BCE3);
 	    this.blackColor = ColorStateList.valueOf(0xFF000000);
+
+//		yellowStyle =this.mContext.getResources().getDrawable(
+//				R.drawable.common_item_text_go_download_color_background_selector);
+//		blueStyle =this.mContext.getResources().getDrawable(
+//						R.drawable.common_item_text_downloading_color_background_selector);
+//		redStyle = this.mContext.getResources().getDrawable(
+//						R.drawable.common_item_text_finish_color_background_selector);
+
+//		yellowStyle =this.mContext.getResources().getDrawable(
+//				R.drawable.common_item_text_go_download_color_background_selector);
+//		blueStyle =this.mContext.getResources().getDrawable(
+//				R.drawable.common_item_text_go_download_color_background_selector);
+//		redStyle = this.mContext.getResources().getDrawable(
+//				R.drawable.common_item_text_go_download_color_background_selector);
+
+//		yellowStyle =this.mContext.getResources().getDrawable(
+//				R.drawable.dialog_button_left_background_selector);
+//		blueStyle =this.mContext.getResources().getDrawable(
+//				R.drawable.dialog_button_left_background_selector);
+//		redStyle = this.mContext.getResources().getDrawable(
+//				R.drawable.dialog_button_left_background_selector);
+
 	}
 
 	// region override
@@ -192,6 +219,7 @@ public class SchooleNoticeAdapter extends BaseAdapter
 				viewHolder.status.setTextColor(0xFF258dcd);
 //				viewHolder.status.setBackgroundDrawable(this.mContext.getResources().getDrawable(
 //						R.drawable.common_item_text_go_download_color_background_selector));
+//				viewHolder.status.setBackgroundDrawable(yellowStyle);
 //				viewHolder.status.setBackgroundResource(
 //						R.drawable.common_item_text_go_download_color_background_selector);
 				break;
@@ -199,6 +227,7 @@ public class SchooleNoticeAdapter extends BaseAdapter
 				viewHolder.status.setTextColor(0xFFe4a942);
 //				viewHolder.status.setBackgroundDrawable(this.mContext.getResources().getDrawable(
 //						R.drawable.common_item_text_downloading_color_background_selector));
+//				viewHolder.status.setBackgroundDrawable(blueStyle);
 //				viewHolder.status.setBackgroundResource(
 //						R.drawable.common_item_text_downloading_color_background_selector);
 				break;
@@ -206,6 +235,7 @@ public class SchooleNoticeAdapter extends BaseAdapter
 				viewHolder.status.setTextColor(0xFFf0658f);
 //				viewHolder.status.setBackgroundDrawable(this.mContext.getResources().getDrawable(
 //						R.drawable.common_item_text_finish_color_background_selector));
+//				viewHolder.status.setBackgroundDrawable(redStyle);
 //				viewHolder.status.setBackgroundResource(
 //						R.drawable.common_item_text_finish_color_background_selector);
 				break;

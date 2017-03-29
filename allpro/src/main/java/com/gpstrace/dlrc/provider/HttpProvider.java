@@ -1,14 +1,5 @@
 package com.gpstrace.dlrc.provider;
 
-import java.io.IOException;
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-
 import org.apache.http.Header;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -27,6 +18,15 @@ import org.apache.http.params.CoreProtocolPNames;
 import org.apache.http.params.HttpConnectionParams;
 import org.apache.http.protocol.HTTP;
 import org.apache.http.util.EntityUtils;
+
+import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 
 @SuppressWarnings("deprecation")
 public class HttpProvider {
@@ -268,15 +268,15 @@ public class HttpProvider {
 	}
 
 	/**
-	 * @采用post方式获取数据，不带编码解析
-	 * @param strUrl
-	 * @远程访问服务器端的url
-	 * @param args
-	 * @参数键值对
-	 * @return
-	 * @返回json字符串，可直接用于解析json对象
-	 * @throws IOException
-	 * @throws ClientProtocolException
+	 * @ 采用post方式获取数据，不带编码解析
+	 * @ param strUrl
+	 * @ 远程访问服务器端的url
+	 * @ param args
+	 * @ 参数键值对
+	 * @ return
+	 * @ 返回json字符串，可直接用于解析json对象
+	 * @ throws IOException
+	 * @ throws ClientProtocolException
 	 */
 	public static String postMessage(String strUrl, Map<String, String> args)
 			throws ClientProtocolException, IOException {
@@ -306,15 +306,15 @@ public class HttpProvider {
 	}
 
 	/**
-	 * @采用post方式获取数据，不带编码解析
-	 * @param strUrl
-	 * @远程访问服务器端的url
-	 * @param args
-	 * @参数键值对
-	 * @param encodeStr
-	 * @编码方式
-	 * @return
-	 * @返回json字符串，可直接用于解析json对象
+	 * @ 采用post方式获取数据，不带编码解析
+	 * @ param strUrl
+	 * @ 远程访问服务器端的url
+	 * @ param args
+	 * @ 参数键值对
+	 * @ param encodeStr
+	 * @ 编码方式
+	 * @ return
+	 * @ 返回json字符串，可直接用于解析json对象
 	 * @throws IOException
 	 * @throws ClientProtocolException
 	 */
@@ -346,15 +346,15 @@ public class HttpProvider {
 	}
 
 	/**
-	 * @采用post方式获取数据，不带编码解析
-	 * @param strUrl
-	 * @远程访问服务器端的url
-	 * @param jsonStr
-	 * @已经封装好的json对象字符串
-	 * @return
-	 * @返回json字符串，可直接用于解析json对象
-	 * @throws IOException
-	 * @throws ClientProtocolException
+	 * @ 采用post方式获取数据，不带编码解析
+	 * @ param strUrl
+	 * @ 远程访问服务器端的url
+	 * @ param jsonStr
+	 * @ 已经封装好的json对象字符串
+	 * @ return
+	 * @ 返回json字符串，可直接用于解析json对象
+	 * @ throws IOException
+	 * @ throws ClientProtocolException
 	 */
 	public static String postJsonMessage(String strUrl, String jsonStr) throws ClientProtocolException, IOException {
 		String strResult = "";
@@ -1203,7 +1203,13 @@ public class HttpProvider {
 
 		return strResult;
 	}
-	
+
+	//region 上传文件专用，针对网络部分进行一些设置处理
+
+
+
+	//endregion
+
 	//endregion
 
 	// endregion

@@ -38,7 +38,7 @@ public class LoadHandler
 	public void Load(Context context)
 	{
 		AppConfig.getInstance().init();
-//		CrashHandler.getInstance().init(context);
+		CrashHandler.getInstance().init(context);
 		AppHandler.getInstance().setContext(context);
 		AppHandler.getInstance().setImageLoader();				
 		HttpProvider.setAgentString(AppHandler.getInstance().getAgentString(

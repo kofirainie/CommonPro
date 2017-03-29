@@ -1,8 +1,8 @@
 package com.gpstrace.dlrc;
 
-import com.gpstrace.dlrc.handler.LoadHandler;
-
 import android.app.Application;
+
+import com.gpstrace.dlrc.handler.LoadHandler;
 
 /**
  * @应用程序类
@@ -31,4 +31,10 @@ public class CrashApplication extends Application
 	{
 		LoadHandler.getInstance().Load(getApplicationContext());
 	}
+
+//	@Override
+//	protected void attachBaseContext(Context base) {
+//		super.attachBaseContext(base);
+//		MultiDex.install(this) ;
+//	}
 }

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="PeekAndPop-v0.1">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/allpro/build/intermediates/exploded-aar/com.github.shalskar/PeekAndPop/v0.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/allpro/build/intermediates/exploded-aar/com.github.shalskar/PeekAndPop/v0.1/res" />
+      <root url="jar://$PROJECT_DIR$/allpro/build/intermediates/exploded-aar/com.github.shalskar/PeekAndPop/v0.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
