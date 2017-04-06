@@ -437,7 +437,7 @@ public class TabHostActivity extends ActivityBase implements
 					gotoDiffPage(FragmentTabHostActivity2.class);
 					break;
 				case 2:
-//					gotoDiffPage(FragmentTabHostActivity3.class);
+					gotoDiffPage(AnimTabsViewActivity.class);
 					break;
 				default:
 					break;
